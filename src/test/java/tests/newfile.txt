@@ -1,0 +1,2 @@
+devbranch te new text oluşturuldu.
+Çalışma tamamlandı.
