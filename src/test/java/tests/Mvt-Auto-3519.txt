@@ -1,1 +1,1 @@
-Scenario: Login sayfasının
+Scenario: Login sayfasının default görünümün test edilmesi.
