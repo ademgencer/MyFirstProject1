@@ -1,0 +1,44 @@
+Sceanrio-1
+1.  https://www.saucedemo.com/  sayfasina gidin
+2.  standard_user ile login olun
+3.  listelenen ürünlerden random olarak bir tanesini secin
+4.  secilen ürünün adini ve fiyatini iki degiskene store edin
+5.  ürün linkine (resim ya da isim) tiklayin
+6.  tiklanilan ürünün acildigini ismi ile assert edin.
+7.  "ADD TO CART"'a tiklayi ve o locatorin textinin da "REVOVE" oldugunu assert edin
+8.  sag üstte bulunan cart (sepet) linkine tiklayin ve cart acilsin
+9.  ürünün sepette oldugunu ve fiyatinin dogru oldu oldugunu assert edin
+10. "CHECKOUT" a tiklayin
+11. formda istenilen bilgileri girin ve "CONTINUE" tiklayin
+12. Burada da isim ve fiyat kontrolü yapin ve "FINISH" e tiklayin
+13. "THANK YOU FOR YOUR ORDER" yazisinin göründügünü assert edin
+
+
+Scenario-2
+1.  http://opencart.abstracta.us/ sayfasina gidin
+2.  Menüde MyAccout'a tiklayin
+3.  Popup'in acilmasini bekleyin ve Register'a tiklayin
+4.  Register formun tüm alanlari doldurun ve "Continue" butonuna tiklayin
+    Bilgiler Fake olabilir.
+5.  Account'un create edildigini dogrulayin.
+6.  MyAccount linkinden Login'e tiklayin
+7.  Login bilgilerini girin ve login olun
+8.  login oldugunuzu dogrulayin
+9.  MyAccount linkinden logout olun
+10. Loout oldugunuzu onaylayin
+
+
+Scenario-3
+1.  https://demoqa.com/webtables sayfasina gidin
+2.  "Add" butonuna tiklayin
+3.  "Registration Form" dialogundaki bildileri doldurun
+4.  "Submit" edin
+5.  Kaydinizin tabloda listelendigini assert edin
+6.  Kaydinizi edit edin
+7.  Last name'i degistirin
+8.  Submit edin
+10. Degisen lastname'in tabloda oldugunu dogrulayin
+11. Girdiginiz kaydi silin
+12. silindigini dogrulayin
+
+
