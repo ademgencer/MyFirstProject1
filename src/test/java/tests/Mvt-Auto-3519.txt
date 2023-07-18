@@ -1,0 +1,5 @@
+Scenario: Login sayfasının default görünümün test edilmesi.
+Otomasyon tamamlanınca Github da MR talebi oluşturulacak,
+Review edilecek, Test Lead onaylarsa Github daki branch imi master branch e merge ederim,
+Locale gelip merge edilmiş olan remote branchimi localden de silerim,
+Jira da ticket açılmışsa kapatılır
